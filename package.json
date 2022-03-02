@@ -1,0 +1,15 @@
+{
+  "name": "banned-passport-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "dotenv -e .env nodemon index.js"
+  },
+  "dependencies": {
+    "telegraf": "^4.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "prettier": "^2.5.1"
+  }
+}
